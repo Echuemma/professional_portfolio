@@ -83,11 +83,12 @@ body {
     position: fixed;
     left: 0;
     z-index: 600;
-    padding: 10px;
+    padding: 5px;
   }
   
   .nav-brand img {
     width: 50px;
+    height: 45px;
   }
   
   
@@ -408,13 +409,20 @@ body {
     left: 45px !important;
   }
   
-  #fp-nav ul li a span,
-  .fp-slidesNav ul li a span {
+  #fp-nav ul li a 
+  span
+  ,
+  .fp-slidesNav ul li a 
+  span 
+  {
     background: rgba(0, 0, 0, 0.62) !important;
   }
   
   .fa-paper-plane {
     color: #484848;
+  }
+  .spann:hover{
+    color: #ff6363;
   }
   
   .plane-animated {
